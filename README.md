@@ -108,7 +108,7 @@ Untuk pengujian cepat, kamu bisa masuk menggunakan kredensial *dummy* berikut:
 
 ## 💻 Author
 
-* **Nesya Kirani Nurroffi** — *Software Engineering Student (XI PPLG)* 
+* **Nesya Kirani Nurroffi** — *Software Engineering Student (XII PPLG-RPL)* 
 * *Building clean code and aesthetic digital experiences.*
 
 <div align="center">
