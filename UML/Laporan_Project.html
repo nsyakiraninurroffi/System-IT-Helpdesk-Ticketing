@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Project - IT Helpdesk</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin: 30px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+            img {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Laporan Project - IT Helpdesk &amp; Ticketing System</h1>
+        <center>
+        <li><strong>By</strong>: Nesya Kirani Nurroffi</li>
+        <li><strong>Kelas</strong>: XII PPLG-RPL 2</li>
+        <li><strong>Sekolah</strong>: SMKN 1 Cianjur</li>
+        </center>
+
+<hr>
+<h2>Deskripsi Project</h2>
+<p>Sistem IT Helpdesk &amp; Ticketing ini adalah sebuah aplikasi berbasis web yang dirancang khusus untuk memfasilitasi pelaporan, pemantauan, dan penyelesaian kendala IT di dalam suatu perusahaan atau institusi.</p>
+<p>Aplikasi ini dibangun menggunakan arsitektur <em>Native PHP</em> yang tangguh berpadu dengan <em>MySQL</em> sebagai basis data. Di sisi antarmuka, aplikasi ini menggunakan <em>Tailwind CSS</em> untuk tata letak modern dan <em>CSS Custom Variables</em> untuk mewujudkan fitur <strong>Dark Mode &amp; Light Mode</strong> yang dinamis, interaktif, bersih, rapi, dan berkualitas premium (SaaS Level).</p>
+<h2>Fitur Utama</h2>
+<ol>
+<li><strong>Multi-Role User</strong>: Sistem mengakomodasi tiga hak akses yang berbeda (Admin IT, Teknisi IT, dan Karyawan) dengan kapabilitas masing-masing.</li>
+<li><strong>Dark Mode &amp; Light Mode</strong>: Desain UI/UX dapat diubah mode warnanya yang state-nya persisten disokong oleh <code>localStorage</code>.</li>
+<li><strong>Manajemen Tiket Terpadu</strong>: Mulai dari tahap pelaporan oleh Karyawan, penugasan (disposisi) oleh Admin, hingga penanganan (resolusi) oleh Teknisi IT.</li>
+<li><strong>Tracking Real-time</strong>: Karyawan dapat memantau jejak perubahan status secara <em>real-time</em> (Pending, In Progress, Resolved).</li>
+<li><strong>Ulasan Layanan</strong>: Setelah tiket selesai ditangani, Karyawan dapat memberikan <em>rating</em> dan <em>feedback</em> atas kualitas penyelesaian kendala.</li>
+<li><strong>Dashboard Analitik</strong>: Informasi statistika penyelesaian tiket divisualisasikan dengan elegan untuk pemantauan kualitas layanan (SLA).</li>
+</ol>
+<hr>
+<h2>Dokumentasi Halaman (Antarmuka Premium)</h2>
+<h3>1. Halaman Login (Split-Screen Modern)</h3>
+<p>Halaman ini adalah pintu masuk sistem. Dilengkapi dengan toggle mode gelap/terang, desain menggunakan <em>glassmorphism</em>, gradient mulus, dan kartu interaktif dengan micro-animasi yang premium.</p>
+<p><strong>Login Mode Gelap (Dark Mode):</strong>
+<img src="images/login_dark.png" alt="Login Dark"></p>
+<p><strong>Login Mode Terang (Light Mode):</strong>
+<img src="images/login_light.png" alt="Login Light"></p>
+<h3>2. Dashboard Admin IT</h3>
+<p>Panel ini diperuntukkan untuk Koordinator IT/Admin untuk mengelola tiket, melakukan pendisposisian tiket kepada teknisi, mengatur data master, dan menganalisa efisiensi layanan. (Mode Gelap).</p>
+<p><img src="images/admin_dark.png" alt="Dashboard Admin"></p>
+<h3>3. Dashboard Karyawan</h3>
+<p>Karyawan dapat melaporkan keluhan IT serta melacak progres penanganan dari tiket yang sudah pernah mereka buat sebelumnya. Warna aksen disesuaikan dengan biru elegan.</p>
+<p><img src="images/karyawan_dashboard.png" alt="Dashboard Karyawan"></p>
+<h3>4. Dashboard Teknisi IT</h3>
+<p>Panel ini merupakan meja kerja teknisi, di mana setiap penugasan masuk akan diproses dengan pendekatan mirip metode <em>Kanban</em>, yang memberikan batas visualisasi timeline penanganan dan rincian kontak pelapor.</p>
+<p><img src="images/teknisi_dashboard.png" alt="Dashboard Teknisi"></p>
+<hr>
+<h2>Kesimpulan</h2>
+<p>Pengembangan “IT Helpdesk &amp; Ticketing System” ini menunjukkan perpaduan logika backend (Native PHP) yang solid dengan presentasi antarmuka frontend (Premium CSS + Tailwind) masa kini yang sangat mengedepankan fungsionalitas sekaligus kenyamanan visual (UI/UX) bagi penggunanya.</p>
+
+    
+    <script>
+        // Auto print to PDF dialog when opened
+        window.onload = function() {
+            setTimeout(() => {
+                window.print();
+            }, 1000);
+        };
+    </script>
+</body>
+</html>

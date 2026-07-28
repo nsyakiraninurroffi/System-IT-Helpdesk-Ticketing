@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "markdown-it": "^14.3.0",
+    "md-to-pdf": "^5.2.5"
+  }
+}
